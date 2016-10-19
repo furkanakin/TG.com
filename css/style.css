@@ -1,18 +1,12 @@
-div#saglogin {
-    background-color: white;
-    position: fixed;
-    right: 0px;
-    top: 52px;
-    height: 100%;
-    width: 20%;
-}
+
 
 
 a#birincimenu {
-    font-size: x-small;
+    font-size: small;
     padding-right: 10px;
     position: relative;
     top: -10px;
+	font-weight: bold;
 }
 
 
@@ -23,6 +17,7 @@ nav#birincinavbar {
     margin-bottom: 0;
     border: none;
 	background-color:#F1F1F1;
+	    padding-top: 10px;
 }
 
 nav#ikincinavbar {
@@ -36,6 +31,10 @@ nav#ikincinavbar{
 	
 	height: 105px;
 	
+}
+
+ul#ikincinavbarnav {
+    padding-top: 33px;
 }
 
 @media screen and (max-width: 768px) {
@@ -107,6 +106,13 @@ button#leftMenuBtn {
 }
 
 
+.row.seconderow{
+	
+	background-color: #F0F4F7;
+	
+	
+}
+
 
 h1,p#firstRowText{
 	
@@ -140,8 +146,15 @@ p#leftRowText {
 }
 
 
+div#SearchModal {
+    background-color: #FE9C42;
+}
 
 
+div#LoginModal {
+    background-color: #FE9C42;
+}
 
-
-
+div#SignModal {
+    background-color: #FE9C42;
+}
