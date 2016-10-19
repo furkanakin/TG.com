@@ -1,0 +1,147 @@
+div#saglogin {
+    background-color: white;
+    position: fixed;
+    right: 0px;
+    top: 52px;
+    height: 100%;
+    width: 20%;
+}
+
+
+a#birincimenu {
+    font-size: x-small;
+    padding-right: 10px;
+    position: relative;
+    top: -10px;
+}
+
+
+nav#birincinavbar {
+    position: relative;
+    min-height: 25px;
+    max-height: 50px;
+    margin-bottom: 0;
+    border: none;
+	background-color:#F1F1F1;
+}
+
+nav#ikincinavbar {
+	background-color:#FFF;
+		margin: 0;
+    border: none;
+}
+
+
+nav#ikincinavbar{
+	
+	height: 105px;
+	
+}
+
+@media screen and (max-width: 768px) {
+  nav#birincinavbar {
+	  min-height: 0px;
+      max-height: 0px;
+      visibility: hidden;	  
+}
+  nav#ikincinavbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+	
+
+}
+}
+
+ul#ikinciloginkismi {
+    margin-right: 0;
+}
+
+
+a#thirdMenuItems {
+    color: white;
+}
+
+
+nav#ucuncunavbar {
+    background-color: #737373;
+		border-bottom: none;
+	margin: 0px;
+	
+}
+
+div#ikincimyNavbar {
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 767px) {
+	
+	nav#ucuncunavbar {
+    background-color: #ffffff;
+    float: left;
+
+}
+	
+	
+}
+
+
+button#leftMenuBtn {
+    margin-left: 10px;
+}
+
+
+.navbar-default .navbar-nav.thirMenuItems>li>a {
+    color: #fff !important; 
+}
+
+
+.row.firstrow{
+	
+	background-color: #FE9C42;
+	
+	
+}
+
+
+
+h1,p#firstRowText{
+	
+	color: white;
+	
+}
+
+h1#leftRowTexthead {
+    font-size: 40px;
+}
+
+div#orangepartleft {
+    padding-top: 70px;
+}
+
+div#orangepartrigtht {
+    height: 400px;
+	padding-top: 40px;
+}
+
+
+p#rightRowText {
+    color: #fff;
+    font-size: 45px;
+    text-align: -webkit-right;
+}
+
+p#leftRowText {
+    color: #fff;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
