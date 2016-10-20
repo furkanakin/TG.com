@@ -93,6 +93,36 @@ button#leftMenuBtn {
 }
 
 
+button#signbtn {
+    background-color: #1CB834;
+    color: #fff;
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+	font-weight: bold;
+	margin-right: 185px;
+}
+
+button#joinbtn {
+    width: 175px;
+    height: 50px;
+    color: #fff;
+    background-color: #E97A01;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 12px !important;
+}
+
+@media screen and (max-width: 869px) {
+	
+button#signbtn {
+
+	margin-right: 47px;
+}
+	
+	
+}
+
 .navbar-default .navbar-nav.thirMenuItems>li>a {
     color: #fff !important; 
 }
