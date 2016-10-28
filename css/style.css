@@ -1,23 +1,26 @@
-
-
-
-a#birincimenu {
+.navbar{
+    border-radius: 0px;
+    border:none;
+    box-shadow: none;
+}
+.top-navbar-menu{
     font-size: small;
-    padding-right: 10px;
-    position: relative;
-    top: -10px;
-	font-weight: bold;
+    font-weight: bold;
+    min-height: auto;
+}
+.top-navbar-menu .navbar-nav li a{
+    line-height: 25px;
+    padding: 8px;
+}
+.main-navbar-menu{
+    background-color: transparent;
+    border:none;
 }
 
-
 nav#birincinavbar {
-    position: relative;
-    min-height: 25px;
-    max-height: 50px;
-    margin-bottom: 0;
+    height: 50px;
     border: none;
 	background-color:#F1F1F1;
-	    padding-top: 10px;
 }
 
 nav#ikincinavbar {
@@ -100,7 +103,6 @@ button#signbtn {
     height: 50px;
     font-size: 18px;
 	font-weight: bold;
-	margin-right: 185px;
 }
 
 button#joinbtn {
