@@ -2,6 +2,18 @@
     border-radius: 0px;
     border:none;
     box-shadow: none;
+    min-height: auto !important;
+}
+@media (min-width: 768px){
+    .navbar-nav {
+        float: none;
+    }
+    .navbar-nav.item-justify{
+        display:flex; 
+        justify-content:space-between;
+        align-items: center;
+        text-align: center;
+    }
 }
 .top-navbar-menu{
     font-size: small;
@@ -16,6 +28,11 @@
     background-color: transparent;
     border:none;
 }
+.padding-left-right-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 
 nav#birincinavbar {
     height: 50px;
